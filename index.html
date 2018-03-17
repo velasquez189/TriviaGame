@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Night!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-</head>
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trivia Time</title>
+
+        <!-- Important Links -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <!-- Script tags -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
 
     <body>
-        <div class= "container">
-    <!--Bootstrap Jumbotron to wrap the body -->
-        <div class="jumbotron">
-            <h1 class="display-3"><strong> Total Trivial Trivia!</strong></h1>
-            <a class="btn btn-primary btn-lg" href="#" role="button">START</a>
+        <div class="restart"></div>
+        <div class="answer5"></div>
+        <div id="start"></div>
+        <div id="wrapper">
+            <h1>Trivia Time!</h1>
+            <div id="body1">
+                <div id="body2">
+                    <button id="start">Start</button>
+                </div>
+            </div>
         </div>
-        
-        <div class= "question"></div>
-        <div class= "hello"></div>
-        <div class="again"></div>
-
-
-
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
-    <!-- Script -->
-    <script src="assets/javascript/app.js"></script>
-        </div>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
     </body>
+
 </html>

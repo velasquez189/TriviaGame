@@ -1,5 +1,5 @@
-/* body {
-    background-image: url(../images/background.jpg)
+body {
+    background-image: url(images/background.jpg)
 }
 
 .jumbotron {
@@ -9,7 +9,7 @@
     margin: 100px;
     height: 600px;
     /* width: 80%; */
-/* }
+
 .display-3 {
     font-family: 'Bangers', 'cursive';
     font-size: 100px;
@@ -17,4 +17,4 @@
 
 .btn {
     
-} */ 
+}
